@@ -1,16 +1,29 @@
 // pages/DetailPage/DetailPage.js
+var comm = require("../../Comm/comm.js")
 Page({
 
     /**
      * 页面的初始数据
      */
-    data: {},
+    data: {
+
+        list: comm.list,
+        info: "",
+        id:""
+    },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        console.log("options.id = " + options.id)
+        this.data.id = options.id;
+        for (let index = 0; index < this.data.list.length; index++) {
+          if(this.data.list[index].id == this.data.id){
+              this.data.info = this.data.list[index]
+          }
+            
+        }
+    //    console.log(this.data.info);
     },
 
     /**
