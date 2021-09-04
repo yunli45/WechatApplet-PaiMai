@@ -6,10 +6,10 @@ Page({
      * 页面的初始数据
      */
     data: {
-
-        list: comm.list,
         info: "",
-        id:""
+        id: "",
+        background: [],
+        list: comm.list
     },
 
     /**
@@ -18,18 +18,36 @@ Page({
     onLoad: function (options) {
         this.data.id = options.id;
         for (let index = 0; index < this.data.list.length; index++) {
-          if(this.data.list[index].id == this.data.id){
-              this.data.info = this.data.list[index]
-          }
-            
+            if (this.data.list[index].id == this.data.id) {
+                this.setData({
+                    info: this.data.list[index],
+                    background : this.data.list[index].img
+                })
+            }
+
         }
-    //    console.log(this.data.info);
+        console.log(this.data.background)
     },
 
     /**
      * 生命周期函数--监听页面初次渲染完成
      */
     onReady: function () {
+       /* if (this.data.info.img) {
+            let curImgList = this.data.info.img; // 当前图片的数组
+            let curIndex = 0; // 设置一个局部变量，当前的图片下标
+            let myImg = document.getElementById("img")
+            document.getElementById("bigImg");
+            // 设置一个时间，进行切换
+            console.log("正在循环照片1")
+            setTimeout(function () {
+                for (let i = 0; i < curImgList.length; i++) {
+                    myImg.src = curImgList[i];
+                    console.log("正在循环照片2")
+                }
+            }, 2000)
+            console.log("正在循环照片3")
+        }*/
 
     },
 

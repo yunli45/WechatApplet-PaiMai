@@ -1,55 +1,37 @@
 /* pages/index/index.wxss */
-.item{
-  margin-bottom: 40rpx;
-}
-.contain .item .title{
- font-size: 45rpx;
- font-weight: 600;
+.detail {
+    font-size: 45rpx;
+    font-weight: 600;
+    text-align: center;
 }
 
-.contain .tips{
- display: flex;
- flex-direction: row;
- flex-wrap: nowrap;
- font-size: 30rpx;
- justify-content: space-between;
-}
-.info{
- display: flex;
- flex-wrap: nowrap;
-  
-}
-.status{
- color: #a1a3a6;
- margin-right: 15rpx;
-}  
-
-.big{
- height: 400rpx;
- overflow: hidden;
+.title {
+    font-size: 45rpx;
+    font-weight: 600;
+    text-align: center;
 }
 
-.big image{
-   height: 100%;
-   width: 100%;
+
+.big {
+    height: 400rpx;
+    overflow: hidden;
 }
 
-.small{
- display: flex; 
- flex-direction: row;
- justify-content: flex-start;
-
+.small {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.small image{
- width: 100rpx;
- height: 100rpx;
- padding-right: 20rpx;
+.small image {
+    width: 100rpx;
+    height: 100rpx;
+    padding-right: 20rpx;
 }
 
-.navigator-hover {
- color:blue;
+.dec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.other-navigator-hover {
- color:red;
-}
+

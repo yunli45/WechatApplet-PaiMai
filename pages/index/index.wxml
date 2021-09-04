@@ -21,7 +21,7 @@
 
 
         <view class="small">
-            <image src="{{item}}" wx:for="{{item.img}}"></image>
+            <image  wx:for="{{item.img}}" src="{{item}}"></image>
         </view>
 
 
