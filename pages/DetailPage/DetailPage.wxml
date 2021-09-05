@@ -3,7 +3,7 @@
 <view class="content">
 
     <view class="title">{{info.title}}</view>
-    
+
     <view class="img">
         <!-- 滑块 自行切换图片-->
         <swiper indicator-dots="true" indicator-color="rgba(0, 0, 0, .3)" duration="500"

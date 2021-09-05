@@ -8,7 +8,6 @@
             "count": "200次围观",
             "img": [
                 '/icon/mghh/1.jpg',
-                '/icon/mghh/2.jpg',
                 '/icon/mghh/3.jpg',
                 '/icon/mghh/4.jpg',
                 '/icon/mghh/5.jpg',
@@ -28,10 +27,6 @@
                 '/icon/chaju/1.jpg',
                 '/icon/chaju/2.jpg',
                 '/icon/chaju/3.jpg',
-                '/icon/chaju/4.jpg',
-                '/icon/chaju/5.jpg',
-                '/icon/chaju/6.jpg',
-                '/icon/chaju/7.jpg',
 
             ],
             'dec': "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本周五贵和祥春凤翔玉的茶具专场将进行拍卖，请各位看官到时候捧捧场，有钱的捧个钱场，没钱的捧个人场，" +
