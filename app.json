@@ -6,8 +6,9 @@
   ],
   "window": {
     "navigationBarBackgroundColor": "#afb4db",
-    "navigationBarTitleText": "我的小程序",
+    "navigationBarTitleText": "个人拍卖",
     "navigationBarTextStyle": "white"
+    
   },
   "tabBar": {
     "selectedColor": "#aa363d",

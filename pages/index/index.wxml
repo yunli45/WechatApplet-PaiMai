@@ -1,5 +1,4 @@
-<!--pages/index/index.wxml-->
-<view>首页</view>
+<!--pages/index/index.wxml--> 
 <view wx:for="{{list}}" class="contain">
     <view class="item">
         <view class="title">

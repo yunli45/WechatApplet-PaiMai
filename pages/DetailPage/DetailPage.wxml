@@ -1,8 +1,14 @@
 <!--pages/DetailPage/DetailPage.wxml-->
-<view class="detail">详情页</view>
 <view class="content">
+    <view class="tips">
+        <view class="info">
+            <view class="status">{{info.status}}</view>
+            <view class="time">{{info.time}}</view>
+        </view>
 
-    <view class="title">{{info.title}}</view>
+        <view class="count">{{info.count}}</view>
+    </view>
+
 
     <view class="img">
         <!-- 滑块 自行切换图片-->
